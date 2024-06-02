@@ -1,0 +1,73 @@
+.Nav {
+    color:rgb(255, 255, 255);
+    font-size: medium;
+    text-align: center;
+    margin: 3% 1%;
+    min-height: 60%;
+    min-width: 21%;
+    align-items: top;
+    justify-content: center;
+    background-color: rgba(221, 209, 255, 0.315);
+    backdrop-filter: blur(5px);
+    border-radius: 30px;
+  }
+
+
+.logo {
+    width: 120px;
+    filter: invert(100) brightness(100);
+    margin-top: 15%;
+    margin-left: 4%;
+}
+
+.Nav h1 {
+    font-family: 'Lexend Tera' ;
+    font-weight: 800;
+    font-size: 2.3vi;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+}
+
+.Nav h2 {
+    font-family: "Work Sans" ;
+    font-weight: 400;
+    font-size: 1.3vi;
+    margin: 0.2rem;
+}
+
+.Nav a {
+    color:rgb(255, 255, 255)
+}
+
+.line {
+    border-top: 2px solid #ffffff;
+    opacity: .75;
+    margin-left: 7%;
+    margin-top: 6%;
+    max-width: 85%;
+    margin-bottom: 12%;
+}
+
+.Nav-links {
+    color: rgb(255, 233, 212);
+    list-style-type: none;
+    text-align: right;
+    padding-right: 30px;
+    line-height: 40px;
+    font-family: 'Work Sans';
+    font-weight: 800;
+}
+
+.Nav-links :hover {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.Nav-links i {
+    font-size: 20px;
+}
+
+
+
+
+

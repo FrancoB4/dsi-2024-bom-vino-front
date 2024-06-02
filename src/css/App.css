@@ -1,0 +1,27 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+}
+
+.App {
+  text-align: center; 
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.App-body {
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: top;
+  justify-content: center;
+  margin: 0;
+  font-size: calc(10px + 1.5vmin);
+  background-image: url('../image/background.jpeg');
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgba(0,0,0,0.3);
+}

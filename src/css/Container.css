@@ -1,0 +1,178 @@
+.Container {
+    text-align: center;
+    margin: 3% 1%;
+    padding: 1.5%;
+    min-height: 60%;
+    min-width: 65%;
+    min-height: 100px;
+    background-color: rgba(253, 245, 240);
+    border-radius: 30px;
+  }
+
+.Container a {
+    color:rgb(168, 38, 56)
+}
+
+.solid {
+    margin-top: 6%;
+    max-width: 85%;
+}
+
+.Container-header {
+    position: relative;
+    text-align: center;
+    margin: .5%;
+    border-radius: 30px;
+}
+
+.btnGroup {
+    --button-color:  #834b48;
+    --button-background: #a754505d;
+    display: flex;
+    min-width: 300px;
+    height: 35px;
+    margin: 1rem;
+    border-radius: 100px;
+    border: 2px solid var(--button-color);
+    overflow: hidden;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.btnGroup button {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Work Sans";
+    outline: none;
+    border: none;
+    background-color: var(--button-background);
+    color: var(--button-color);
+    font-weight: 600;
+}
+
+.btnGroup button:hover {
+    background: var(--button-color);
+    color: beige;
+}
+
+.btnGroup .btnActive {
+    background: var(--button-color);
+    color: beige;
+}
+
+.buscador {
+    position: absolute; 
+    top: 15%; 
+    right: 0;
+    border-radius: 20px;
+    text-indent: 6%;
+    max-width: 40%;
+    min-width: 40%;
+    background-color: transparent;
+    outline-width: 0;
+    border-style:solid;
+    border-color: rgb(100, 34, 34);
+    color: rgb(100, 34, 34);
+    font-family: "Work Sans";
+}
+
+.btnBuscar {
+    position: absolute; 
+    top: 17%; 
+    right: 0;
+    margin-left: -6%;
+    margin-right: 1%;
+    border: none;
+    color: rgb(100, 34, 34);
+    background-color: transparent;
+}
+
+#topmessage {
+    color: rgba(100, 34, 34, 0.651);
+    font-family: "Work Sans";
+    text-align: left;
+    margin: 0;
+    padding: 1.3% 3% 0% 1.5%;
+}
+
+.Container ::placeholder {
+    color: rgba(97, 28, 28, 0.459);
+}
+
+.ListaVinos {
+    color: rgba(85, 58, 58, 0.555);
+    text-align: justify;
+    font-size: large;
+    padding: 0% 3% 0% 1%;
+    overflow-y: overlay;
+    position: absolute;
+    max-width: 96%;
+    max-height: 85%;
+    margin: 3%;
+    min-width: 95%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.contGrilla{
+    margin-right: 10px;
+}
+
+
+#listaVinos {
+    position: relative;
+    background-color: rgba(163, 119, 119, 0.151);
+    min-height: 85%;
+    border-radius: 20px;
+    padding: 0px
+}
+
+.ListaVinos li {
+    border: 1px solid #ccc;
+    max-width: 95%;
+    border-radius: 8px;
+    box-shadow: 1px 1px 1px 1px rgba(189, 122, 122, 0.247);
+    padding: 1px;
+    margin: 1px;
+    text-align: center;
+}
+
+.ListaVinos i {
+    font-size: larger;
+}
+
+#listaRank {
+    position: relative;
+    background-color: rgba(163, 119, 119, 0.151);
+    min-height: 65%;
+    border-radius: 20px;
+    padding: 0px;
+}
+
+#btnExportarExcel {
+    font-family: "Work Sans";
+    outline: none;
+    border: none;
+    background-color:#834b48;
+    border-radius: 20px;
+    min-width: 30%;
+    color: beige;
+    font-weight: 700;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    left: -100px; 
+}
+
+::-webkit-scrollbar-thumb {
+    margin: 2%;
+    background: rgb(104, 54, 60);
+    border-radius: 10px;
+    border: solid 10px transparent;
+}

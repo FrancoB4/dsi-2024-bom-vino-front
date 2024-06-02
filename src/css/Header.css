@@ -1,0 +1,28 @@
+.Header {
+    position: absolute;
+    z-index: 1;
+    bottom: 2%;
+    left: 8%;
+    font-size: 250%;
+    color: white;
+    background-color: transparent;
+    margin: 0;
+    min-height: 3vi;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.username {
+    font-family: "Work Sans" ;
+    font-weight: 400;
+    font-size: 1.3vi;
+    margin: 0.2rem;
+    color: rgb(255, 255, 255);
+    margin-left: 10%;
+    margin-top: 6%;
+}
+
+.Header :hover {
+    cursor: pointer;
+}
