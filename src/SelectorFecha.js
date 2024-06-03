@@ -21,14 +21,14 @@ const SelectorFecha = ({ isOpen, onClose, setFechaInicio, setFechaFin }) => {
         <form>
           <p>Fecha de Inicio</p>
           <input 
-            placeholder='dd/mm/aaaa'
+            placeholder='dd-mm-aaaa'
             value={localFechaInicio}
             onChange={(e) => setLocalFechaInicio(e.target.value)}
           />
           <p />
           <p>Fecha de Fin</p>
           <input 
-            placeholder='dd/mm/aaaa'
+            placeholder='dd-mm-aaaa'
             value={localFechaFin}
             onChange={(e) => setLocalFechaFin(e.target.value)}
           />
