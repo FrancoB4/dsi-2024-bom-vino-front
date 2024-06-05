@@ -26,7 +26,7 @@ function Ranking({ openSelector, fechaInicio, fechaFin }) {
             <ListaRank />
 
             <button id="btnExportarExcel">
-                <a id="btnExportarExcel" href={`http://localhost:8080/api/v1/ranking-de-vinos?fechaInicio=${fechaInicio}&fechaFin=${fechaFin}&resenaPremium=${activeButton === "SOMMELIERS" ? true : false}&tipoVisualizacion=${"excel"}`}>
+                <a id="btnExportarExcel" href={`http://localhost:8081/api/v1/ranking-de-vinos?fechaInicio=${fechaInicio}&fechaFin=${fechaFin}&resenaPremium=${activeButton === "SOMMELIERS" ? true : false}&tipoVisualizacion=${"excel"}`}>
                     EXPORTAR
                 </a>
             </button>

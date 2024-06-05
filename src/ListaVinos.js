@@ -1,7 +1,7 @@
 import './css/Container.css';
 import Vino from './Vino';
 
-const res = await fetch('http://localhost:8080/api/v1/models/vinos');
+const res = await fetch('http://localhost:8081/api/v1/models/vinos');
 const vinos = await res.json();
 // const vinos = [
 //     {

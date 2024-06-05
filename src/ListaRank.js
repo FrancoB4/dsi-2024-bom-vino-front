@@ -3,7 +3,7 @@ import Vino from './Vino';
 import wine1 from './image/carnivor-wine.png'
 import wine2 from './image/sutterhome-wine.png'
 
-const res = await fetch('http://localhost:8080/api/v1/models/vinos');
+const res = await fetch('http://localhost:8081/api/v1/models/vinos');
 const vinos = await res.json();
 // const vinos = [
 //     {
