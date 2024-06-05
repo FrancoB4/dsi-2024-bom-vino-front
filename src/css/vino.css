@@ -7,5 +7,24 @@
 
 .imgVino{
     max-width: 180px;
-
+    -webkit-filter: drop-shadow(5px 5px 5px #6b4848);
+    filter: drop-shadow(10px 4px 4px #7540481f);
 }
+
+.Vino h4 {
+    font-family: 'Work Sans';
+    margin-bottom: 0;
+    font-weight: 800;
+    font-size: 1.3rem;
+    margin: 3px;
+}
+
+.Vino p {
+    margin: 6px;
+}
+
+.Vino i {
+    -webkit-text-stroke: 1px;
+    cursor: pointer;
+}
+

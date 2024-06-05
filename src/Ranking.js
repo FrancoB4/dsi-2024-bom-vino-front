@@ -1,6 +1,6 @@
 import './css/Container.css';
 import React, { useState } from 'react';
-import ListaRank from './ListaRank';
+import ListaVinos from './ListaVinos';
 
 function Ranking({ openSelector, fechaInicio, fechaFin }) {
     const [activeButton, setActiveButton] = useState('TODOS');
@@ -23,10 +23,10 @@ function Ranking({ openSelector, fechaInicio, fechaFin }) {
                     ))} 
             </div>
 
-            <ListaRank />
+            <ListaVinos id={"listaRank"} />
 
             <button id="btnExportarExcel">
-                <a id="btnExportarExcel" href={`http://localhost:8081/api/v1/ranking-de-vinos?fechaInicio=${fechaInicio}&fechaFin=${fechaFin}&resenaPremium=${activeButton === "SOMMELIERS" ? true : false}&tipoVisualizacion=${"excel"}`}>
+                <a id="btnExportarExcel" href={`http://localhost:8081/api/v1/ranking-de-vinos?fechaInicio=${fechaInicio}&fechaFin=${fechaFin}&resenaPremium=${activeButton === "SOMMELIERS"}&tipoVisualizacion=${"excel"}`}>
                     EXPORTAR
                 </a>
             </button>

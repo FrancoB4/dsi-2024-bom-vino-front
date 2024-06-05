@@ -1,9 +1,17 @@
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
 html, body {
   padding: 0;
   margin: 0;
   height: 100%;
   width: 100%;
   background-color: transparent;
+  font-family: 'Work Sans';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .App {
